@@ -1,0 +1,43 @@
+{
+    "name": "rectangle-decomposition",
+    "version": "1.0.0",
+    "description": "Minimal decomposition of rectilinear polygons into rectangles",
+    "main": "src/decomp.js",
+    "directories": {
+        "test": "test"
+    },
+    "dependencies": {
+        "buffer": "^6.0.3"
+    },
+    "devDependencies": {
+        "tape": "~2.3.2",
+        "tap": "~0.4.8",
+        "boxoverlap": "0.0.3",
+        "contour-2d": "0.0.0",
+        "ndarray-pack": "~1.0.1"
+    },
+    "scripts": {
+        "test": "tap test/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/justmakeapp/rectangle-decomposition.git"
+    },
+    "keywords": [
+        "rectangle",
+        "rectilinear",
+        "polygon",
+        "decomposition",
+        "mesh",
+        "optimal"
+    ],
+    "authors": [
+        "Mikola Lysenko",
+        "Bryan Nguyen"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/justmakeapp/rectangle-decomposition/issues"
+    },
+    "homepage": "https://github.com/justmakeapp/rectangle-decomposition"
+}
